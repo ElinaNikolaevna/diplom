@@ -9,3 +9,7 @@
 body,html {
   box-sizing:border-box;
 }
+
+.at-list, .pl-list, .m-list{
+  list-style-type: none;
+}
