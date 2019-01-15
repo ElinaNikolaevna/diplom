@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet');
+
+* 
+{
+  padding:0px;
+  margin:0px;
+}
+
+body,html {
+  box-sizing:border-box;
+}
