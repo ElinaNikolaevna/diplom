@@ -10,6 +10,33 @@ body,html {
   box-sizing:border-box;
 }
 
+html {
+ 	overflow-y:visible;
+}
+
+*
+{
+	overflow-y:hidden;
+	overflow-x:hidden;	
+}
+
 .at-list, .pl-list, .m-list{
   list-style-type: none;
+}
+
+.s-header, .logo, .s-footer, .f-download, .f-title, .f-title-1, .f-title-2
+{
+overflow-x:hidden;
+}
+
+
+.pic-m1, .pic-m2, .pic-m3
+{
+overflow-y:hidden;
+}
+
+.s-footer, .f-download, .f-title, .f-title-1, .f-title-2
+{
+overflow-x:visible;
+overflow-y:visible;
 }
