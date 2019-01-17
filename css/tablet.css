@@ -51,7 +51,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.h-title span {
+.string {
   display:block;
   color:#ffffff;
   text-transform:uppercase;
@@ -155,7 +155,7 @@ body,html {
   oveflow:hidden;
 }
 
-.at1 {
+.list-at li:first-child {
   background-color:#fafafa;
   width: 100%;
   padding-top: 18px;
@@ -163,7 +163,7 @@ body,html {
   padding-bottom: 31px;
 }
 
-.at1-h {
+.list-at li:first-child .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 32px;
@@ -175,7 +175,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at1:before{
+.list-at li:first-child:before{
   content: "01";
   display:inline-block;
   font-family: 'Open Sans', sans-serif;
@@ -189,7 +189,7 @@ body,html {
   margin-left: 38%;
  }
 
-.at1-p {
+.list-at li:first-child .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 16px;
@@ -203,7 +203,7 @@ body,html {
   word-spacing:0.01em;
 }
 
-.at2 {
+.list-at li:nth-child(2) {
   background-color:#f5f4f9;
   width: 100%;
   box-sizing: border-box;
@@ -211,7 +211,7 @@ body,html {
   padding-bottom: 33px;
 }
 
-.at2-h {
+.list-at li:nth-child(2) .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 32px;
@@ -223,7 +223,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at2:before{
+.list-at li:nth-child(2):before{
   content: "02";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -237,7 +237,7 @@ body,html {
   margin-left: 38%;
  }
 
-.at2-p {
+.list-at li:nth-child(2) .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 16px;
@@ -251,7 +251,7 @@ body,html {
   word-spacing:0.01em;
 }
 
-.at3 {
+.list-at li:nth-child(3) {
   background-color:#5e42b0;
   width: 100%;
   box-sizing: border-box;
@@ -259,7 +259,7 @@ body,html {
   padding-bottom: 33px;
 }
 
-.at3-h {
+.list-at li:nth-child(3) .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 32px;
@@ -271,7 +271,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at3:before{
+.list-at li:nth-child(3):before{
   content: "03";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -285,7 +285,7 @@ body,html {
   margin-left: 38%;
  }
 
-.at3-p {
+.list-at li:nth-child(3) .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#ffffff;
   font-size: 16px;
@@ -327,7 +327,7 @@ body,html {
   oveflow:hidden;
 }
 
-.pl1 {
+.list-pl li:first-child {
   background-color:#fff;
   width: 100%;
   box-sizing: border-box;
@@ -335,7 +335,7 @@ body,html {
   padding-bottom: 33px;
 }
 
-.pl1-h {
+.list-pl li:first-child .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 32px;
@@ -347,7 +347,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl1:before{
+.list-pl li:first-child:before{
   content: "01";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -361,7 +361,7 @@ body,html {
   margin-left: 4.1%;
 }
 
-.pl1-p {
+.list-pl li:first-child .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 16px;
@@ -375,7 +375,7 @@ body,html {
   word-spacing:0.01em;
 }
 
-.pl2 {
+.list-pl li:nth-child(2) {
   background-color:#f5f4f9;
   width: 100%;
   box-sizing: border-box;
@@ -383,7 +383,7 @@ body,html {
   padding-bottom: 33px;
 }
 
-.pl2-h {
+.list-pl li:nth-child(2) .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 32px;
@@ -395,7 +395,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl2:before{
+.list-pl li:nth-child(2):before{
   content: "02";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -409,7 +409,7 @@ body,html {
   margin-left: 4.1%;
 }
 
-.pl2-p {
+.list-pl li:nth-child(2) .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 16px;
@@ -423,7 +423,7 @@ body,html {
   word-spacing:0.01em;
 }
 
-.pl3 {
+.list-pl li:nth-child(3) {
   background-color:#090c35;
   width: 100%;
   box-sizing: border-box;
@@ -431,7 +431,7 @@ body,html {
   padding-bottom: 33px;
 }
 
-.pl3-h {
+.list-pl li:nth-child(3) .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#ffffff;
   font-size: 32px;
@@ -443,7 +443,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl3:before{
+.list-pl li:nth-child(3):before{
   content: "03";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -457,7 +457,7 @@ body,html {
   margin-left: 4.2%;
 }
 
-.pl3-p {
+.list-pl li:nth-child(3) .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#ffffff;
   font-size: 18px;
@@ -471,27 +471,27 @@ body,html {
   word-spacing:0.01em;
 }
 
-.m1 {
+.list-m li:first-child {
   background-color:#fff;
   width: 100%;
   box-sizing:border-box;
   padding-bottom: 12.8%;
 }
 
-.pic-m1{
+.list-m li:first-child .pic-m {
   width:100%;
   box-sizing:border-box;
 }
 
-.pic1 {
+.list-m li:first-child .pic {
   width:100%;
 }
 
- .inf-m1{
+ .list-m li:first-child .inf-m{
     width:100%;
   }
   
-.inf-m1-h {
+.list-m li:first-child .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 80px;
@@ -501,7 +501,7 @@ body,html {
   margin-left: 3.2%;
 }
 
-.inf-m1-p {
+.list-m li:first-child .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 24px;
@@ -515,7 +515,7 @@ body,html {
   word-spacing:0.01em;
 }
 
-.counter1 {
+.list-m li:first-child .counter {
   display:flex;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -532,7 +532,7 @@ body,html {
   box-sizing: border-box;
   }
   
-.counter1:before {
+.list-m li:first-child .counter:before {
   border: 3px solid #fff;
   position: absolute;
   content: "";
@@ -541,23 +541,23 @@ body,html {
   border-radius: 2px;
   }
   
-.m2 {
+.list-m li:nth-child(2) {
   background-color:#fff;
   width: 100%;
   box-sizing:border-box;
   padding-bottom: 13.8%;
 }
 
-.pic-m2{
+.list-m li:nth-child(2) .pic-m {
   width:100%;
   box-sizing:border-box;
 }
 
-.pic2 {
+.list-m li:nth-child(2) .pic {
   width:100%;
 }
 
-.inf-m2-h {
+.list-m li:nth-child(2) .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 80px;
@@ -567,7 +567,7 @@ body,html {
   margin-left: 3.4%;
 }
 
-.inf-m2-p {
+.list-m li:nth-child(2) .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 24px;
@@ -581,7 +581,7 @@ body,html {
   word-spacing:0.01em;
 }
 
- .counter2 {
+ .list-m li:nth-child(2) .counter {
   display:flex;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -598,7 +598,7 @@ body,html {
   box-sizing: border-box;
   }
   
-.counter2:before {
+.list-m li:nth-child(2) .counter:before {
   border: 3px solid #fff;
   position: absolute;
   content: "";
@@ -607,23 +607,23 @@ body,html {
   border-radius: 2px;
   }
   
-.m3 {
+.list-m li:nth-child(3) {
   background-color:#fff;
   width: 100%;
   box-sizing:border-box;
   padding-bottom: 14.6%;
 }
 
-.pic-m3{
+.list-m li:nth-child(3) .pic-m{
   width:100%;
   box-sizing:border-box;
 }
 
-.pic3 {
+.list-m li:nth-child(3) .pic {
   width:100%;
 }
 
-.inf-m3-h {
+.list-m li:nth-child(3) .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 80px;
@@ -633,7 +633,7 @@ body,html {
   margin-left: 4.2%;
 }
 
-.inf-m3-p {
+.list-m li:nth-child(3) .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 24px;
@@ -647,7 +647,7 @@ body,html {
   word-spacing:0.01em;
 }
 
-.counter3 {
+.list-m li:nth-child(3) .counter {
   display:flex;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -664,7 +664,7 @@ body,html {
   box-sizing: border-box;
   }
   
-.counter3:before {
+.list-m li:nth-child(3) .counter:before {
   border: 3px solid #fff;
   position: absolute;
   content: "";
@@ -697,7 +697,7 @@ body,html {
   margin-top: 8.6%;
 }
 
-.f-title-1 {
+.f-title h2:first-child {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 80px;
@@ -709,7 +709,7 @@ body,html {
   letter-spacing:0.055em;
 }
 
-.f-title-2 {
+.f-title h2:nth-child(2) {
   font-family: 'Open Sans', sans-serif;
   color:#a496ca;
   font-size: 36px;

@@ -56,7 +56,7 @@ body,html {
   letter-spacing: 0.03em;
 }
 
-.h-title span {
+.string {
   display:block;
   color:#ffffff;
   text-transform:uppercase;
@@ -158,7 +158,7 @@ body,html {
   padding-left: 11px;
 }
 
-.at1 {
+.list-at li:first-child {
   background-color:#fafafa;
   width: 100%;
   box-sizing:border-box;
@@ -166,7 +166,7 @@ body,html {
   padding-bottom: 53px;
   }
 
- .at1-h {
+.list-at li:first-child .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 23px;
@@ -178,7 +178,7 @@ body,html {
   letter-spacing:0.05em;
 }
   
-.at1:before{
+.list-at li:first-child:before{
   content: "01";
   display:inline-block;
   font-family: 'Open Sans', sans-serif;
@@ -192,7 +192,7 @@ body,html {
   margin-left: 6.3%;
   }
 
-.at1-p {
+.list-at li:first-child .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 15px;
@@ -205,7 +205,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at2 {
+.list-at li:nth-child(2) {
   background-color:#f5f4f9;
   width: 100%;
   box-sizing:border-box;
@@ -213,7 +213,7 @@ body,html {
   padding-bottom: 52px;
 }
 
-.at2-h{
+.list-at li:nth-child(2) .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 23px;
@@ -225,7 +225,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at2:before{
+.list-at li:nth-child(2):before{
   content: "02";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -239,7 +239,7 @@ body,html {
   margin-left: 6.3%;
   }
 
-.at2-p {
+.list-at li:nth-child(2) .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 15px;
@@ -252,7 +252,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at3 {
+.list-at li:nth-child(3) {
   background-color:#5e42b0;
   width: 100%;
   box-sizing:border-box;
@@ -260,7 +260,7 @@ body,html {
   padding-bottom: 55px;
   }
 
-.at3-h {
+.list-at li:nth-child(3) .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 23px;
@@ -272,7 +272,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at3:before{
+.list-at li:nth-child(3):before{
   content: "03";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -286,7 +286,7 @@ body,html {
   margin-left: 6.3%;
   }
 
-.at3-p {
+.list-at li:nth-child(3) .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#ffffff;
   font-size: 15px;
@@ -326,7 +326,7 @@ body,html {
   display: block;
 }
 
-.pl1 {
+.list-pl li:first-child {
   background-color:#fafafa;
   width: 100%;
   box-sizing:border-box;
@@ -334,7 +334,7 @@ body,html {
   padding-bottom: 54px;
 }
 
-.pl1-h {
+.list-pl li:first-child .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 23px;
@@ -346,7 +346,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl1:before{
+.list-pl li:first-child:before{
   content: "01";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -360,7 +360,7 @@ body,html {
   margin-left: 6.3%;
 }
 
-.pl1-p {
+.list-pl li:first-child .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 15px;
@@ -373,7 +373,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl2 {
+.list-pl li:nth-child(2) {
   background-color:#f5f4f9;
   width: 100%;
   box-sizing:border-box;
@@ -381,7 +381,7 @@ body,html {
   padding-bottom: 54px;
  }
 
-.pl2-h {
+.list-pl li:nth-child(2) .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 23px;
@@ -393,7 +393,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl2:before{
+.list-pl li:nth-child(2):before{
   content: "02";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -407,7 +407,7 @@ body,html {
   margin-left: 6.4%;
 }
 
-.pl2-p {
+.list-pl li:nth-child(2) .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 15px;
@@ -420,7 +420,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl3 {
+.list-pl li:nth-child(3) {
   background-color:#090c35;
   width: 100%;
   box-sizing:border-box;
@@ -428,7 +428,7 @@ body,html {
   padding-bottom: 55px;
  }
 
-.pl3-h {
+.list-pl li:nth-child(3) .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#ffffff;
   font-size: 23px;
@@ -440,7 +440,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl3:before{
+.list-pl li:nth-child(3):before{
   content: "03";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -454,7 +454,7 @@ body,html {
   margin-left: 6.3%;
 }
 
-.pl3-p {
+.list-pl li:nth-child(3) .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#ffffff;
   font-size: 15px;
@@ -467,29 +467,29 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.m1 {
+.list-m li:first-child {
   background-color:#fff;
   width: 100%;
   min-width:320px;
   box-sizing: border-box;
 }
 
-.pic-m1{
+.list-m li:first-child .pic-m {
   width:100%;
   min-height:351px;
 }
 
-.pic1  {
+.list-m li:first-child .pic  {
   width:100%;
 }
 
- .inf-m1 {
+ .list-m li:first-child .inf-m {
    width:100%;
    min-width:320px;
    padding-bottom: 77px;
   }
   
-.inf-m1-h {
+.list-m li:first-child .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 28px;
@@ -500,7 +500,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.inf-m1-p {
+.list-m li:first-child .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 16px;
@@ -513,7 +513,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-  .counter1 {
+ .list-m li:first-child .counter {
   display:flex;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -530,7 +530,7 @@ body,html {
   box-sizing: border-box;
   }
   
-  .counter1:before {
+ .list-m li:first-child .counter:before {
   border: 2px solid #fff;
   position: absolute;
   content: "";
@@ -539,29 +539,29 @@ body,html {
   border-radius: 1px;
   }
   
-.m2 {
+.list-m li:nth-child(2) {
   background-color:#fff;
   width: 100%;
   min-width:320px;
   box-sizing: border-box;
 }
 
-.pic-m2{
+.list-m li:nth-child(2) .pic-m{
   width:100%;
   min-height:351px;
 }
 
-.pic2 {
+.list-m li:nth-child(2) .pic {
   width:100%;
 }
 
-.inf-m2 {
+.list-m li:nth-child(2) .inf-m {
   width:100%;
   min-width:320px;
   padding-bottom: 77px;
   }
   
-.inf-m2-h {
+.list-m li:nth-child(2) .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 28px;
@@ -572,7 +572,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.inf-m2-p {
+.list-m li:nth-child(2) .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 16px;
@@ -585,7 +585,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-  .counter2 {
+ .list-m li:nth-child(2) .counter {
   display:flex;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -602,7 +602,7 @@ body,html {
   box-sizing: border-box;
   }
   
-  .counter2:before {
+ .list-m li:nth-child(2) .counter:before {
   border: 2px solid #fff;
   position: absolute;
   content: "";
@@ -611,29 +611,29 @@ body,html {
   border-radius: 1px;
   }
   
-.m3 {
+.list-m li:nth-child(3) {
   background-color:#fff;
   width: 100%;
   min-width:320px;
   box-sizing: border-box;
 }
 
-.pic-m3{
+.list-m li:nth-child(3) .pic-m{
   width:100%;
   min-height:351px;
 }
 
-.pic3 {
+.list-m li:nth-child(3) .pic {
   width:100%;
 }
 
-.inf-m3 {
+.list-m li:nth-child(3) .inf-m {
   width:100%;
   min-width:320px;
   padding-bottom: 67px;
   }
   
-.inf-m3-h {
+.list-m li:nth-child(3) .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 28px;
@@ -644,7 +644,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.inf-m3-p {
+.list-m li:nth-child(3) .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 16px;
@@ -657,7 +657,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-  .counter3 {
+  .list-m li:nth-child(3) .counter {
   display:flex;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -673,7 +673,7 @@ body,html {
   box-sizing: border-box;
   }
   
-  .counter3:before {
+  .list-m li:nth-child(3) .counter:before {
   border: 2px solid #fff;
   position: absolute;
   content: "";
@@ -715,7 +715,7 @@ body,html {
   margin-top: 14.7%;
   }
   
-.f-title-1 {
+.f-title h2:first-child {
   font-family: 'Open Sans', sans-serif;
   color:#fff;
   font-size: 32px;
@@ -725,7 +725,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.f-title-2 {
+.f-title h2:nth-child(2) {
   font-family: 'Open Sans', sans-serif;
   color:#9b8ec1;
   font-size: 14px;

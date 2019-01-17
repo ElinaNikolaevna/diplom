@@ -58,7 +58,7 @@ body,html {
   padding-left: 74px;
 }
 
-.tagline span {
+.string {
   display:block;
   color:#ffffff;
   text-transform:uppercase;
@@ -157,7 +157,7 @@ body,html {
   right: 50.1%;
 }
 
-.at1:before{
+.list-at li:first-child:before{
   content: "01";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -171,14 +171,14 @@ body,html {
   margin-left: 52.5%;
 }
 
-.at1 {
+.list-at li:first-child {
   width: 100%;
   padding-top: 68px;
   padding-bottom: 54px;  
   background-color:#fff;
 }
 
-.at1-h {
+.list-at li:first-child .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 36px;
@@ -190,7 +190,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at1-p {
+.list-at li:first-child .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 20px;
@@ -204,7 +204,7 @@ body,html {
   word-spacing:0.01em;
 }
 
-.at2 {
+.list-at li:nth-child(2) {
   background-color:#f5f4f9;
   width: 100%;
   padding-bottom: 56px;
@@ -212,7 +212,7 @@ body,html {
   box-sizing:border-box;
 }
 
-.at2-h {
+.list-at li:nth-child(2) .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 36px;
@@ -224,7 +224,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at2:before{
+.list-at li:nth-child(2):before{
   content: "02";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -238,7 +238,7 @@ body,html {
   margin-left: 52.5%;
  }
 
-.at2-p {
+.list-at li:nth-child(2) .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 20px;
@@ -252,14 +252,14 @@ body,html {
   word-spacing:0.01em;
 }
 
-.at3 {
+.list-at li:nth-child(3) {
   background-color:#5e42b0;
   width: 100%;
   padding-bottom: 54px;
   padding-top: 55px;
 }
 
-.at3-h {
+.list-at li:nth-child(3) .at-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 36px;
@@ -271,7 +271,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.at3:before{
+.list-at li:nth-child(3):before{
   content: "03";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -285,7 +285,7 @@ body,html {
   margin-left: 52.5%;
  }
 
-.at3-p {
+.list-at li:nth-child(3) .at-p {
   font-family: 'Open Sans', sans-serif;
   color:#fff;
   font-size: 20px;
@@ -323,14 +323,14 @@ body,html {
   margin-top:-190px;
 }
 
-.pl1 {
+.list-pl li:first-child {
   background-color:#ffffff;
   width: 100%;
   padding-top: 67px;
   padding-bottom: 55px;
 }
 
-.pl1-h {
+.list-pl li:first-child .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 36px;
@@ -342,7 +342,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl1:before{
+.list-pl li:first-child:before{
   content: "01";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -357,7 +357,7 @@ body,html {
   margin-left: 10%;
 }
 
-.pl1-p {
+.list-pl li:first-child .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 20px;
@@ -371,14 +371,14 @@ body,html {
   word-spacing:0.01em;
 }
 
-.pl2 {
+.list-pl li:nth-child(2) {
   background-color:#f5f4f9;
   width: 100%;
   padding-bottom: 82px;
   padding-top: 54px;
 }
 
-.pl2-h {
+.list-pl li:nth-child(2) .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 36px;
@@ -390,7 +390,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl2:before{
+.list-pl li:nth-child(2):before{
   content: "02";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -405,7 +405,7 @@ body,html {
   margin-left: 10%;
 }
 
-.pl2-p {
+.list-pl li:nth-child(2) .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   font-size: 20px;
@@ -419,14 +419,14 @@ body,html {
   word-spacing:0.01em;
 }
 
-.pl3 {
+.list-pl li:nth-child(3) {
   background-color:#090c35;
   width: 100%;
   padding-bottom: 53px;
   padding-top: 56px;
 }
 
-.pl3-h {
+.list-pl li:nth-child(3) .pl-h {
   font-family: 'Open Sans', sans-serif;
   color:#c1c1c1;
   font-size: 36px;
@@ -438,7 +438,7 @@ body,html {
   letter-spacing:0.05em;
 }
 
-.pl3:before{
+.list-pl li:nth-child(3):before{
   content: "03";
   font-family: 'Open Sans', sans-serif;
   display:inline-block;
@@ -453,7 +453,7 @@ body,html {
   margin-left: 10%;
 }
 
-.pl3-p {
+.list-pl li:nth-child(3) .pl-p {
   font-family: 'Open Sans', sans-serif;
   color:#fff;
   font-size: 20px;
@@ -465,30 +465,30 @@ body,html {
   letter-spacing:0.03em;
 }
 
-.m1, .m2, .m3 {
+.list-m li:nth-child(n+1) {
   display:flex;
 }
 
-.m1 {
+.list-m li:first-child {
   background-color:#fff;
   width: 100%;
   margin-bottom: -0.2%;
 }
 
-.pic-m1 {
+.list-m li:first-child .pic-m {
   width:50%;
 }
 
-.pic1 {
+.list-m li:first-child .pic {
   width:100%;
 }
 
-.inf-m1{
+.list-m li:first-child .inf-m {
   width:50%;
   padding-bottom: 5%;
 }
 
-.inf-m1-h {
+.list-m li:first-child .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 80px;
@@ -501,7 +501,7 @@ body,html {
   width: 100%;
 }
 
-  .counter1 {
+  .list-m li:first-child .counter {
   display:inline-block;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -512,13 +512,13 @@ body,html {
   color:#fff;
   background-color: #5e42b0;
   margin-top: -2%;
-  right: 45.6%;
+  right: calc(50% - 84px);
   padding-top: 29px;
   box-sizing: border-box;
   text-align: center;
   }
   
-.counter1:before {
+.list-m li:first-child .counter:before {
   border: 3px solid #fff;
   position: absolute;
   content: "";
@@ -527,7 +527,7 @@ body,html {
   border-radius: 2px;
   }
  
-.inf-m1-p {
+.list-m li:first-child .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 24px;
@@ -541,7 +541,7 @@ body,html {
   margin-right: 18.7%;
 }
 
-.m2 {
+.list-m li:nth-child(2) {
   background-color:#fff;
   width: 100%;
   flex-direction:row-reverse;
@@ -549,19 +549,19 @@ body,html {
   margin-bottom: -0.2%;
 }
 
-.pic-m2 {
+.list-m li:nth-child(2) .pic-m {
   width:50%;
 }
 
-.pic2 {
+.list-m li:nth-child(2) .pic {
   width:100%;
 }
 
-.inf-m2{
+.list-m li:nth-child(2) .inf-m {
   width:50%;
 }
 
- .counter2 {
+.list-m li:nth-child(2) .counter {
   display:inline-block;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -572,13 +572,13 @@ body,html {
   color:#fff;
   background-color: #5e42b0;
   margin-top: -2%;
-  left: 45.6%;
+  left: calc(50% - 84px);
   padding-top: 29px;
   box-sizing: border-box;
   text-align:center;
   }
   
-.counter2:before {
+.list-m li:nth-child(2) .counter:before {
   border: 3px solid #fff;
   position: absolute;
   content: "";
@@ -587,7 +587,7 @@ body,html {
   border-radius: 2px;
   }
   
-.inf-m2-h {
+.list-m li:nth-child(2) .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 80px;
@@ -599,7 +599,7 @@ body,html {
   padding-left: 19.5%;
 }
 
-.inf-m2-p {
+.list-m li:nth-child(2) .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 24px;
@@ -615,25 +615,25 @@ body,html {
   margin-right: 9%;
 }
 
-.m3 {
+.list-m li:nth-child(3) {
   background-color:#fff;
   width: 100%;
   margin-bottom: -0.2%;
   }
 
-.pic-m3 {
+.list-m li:nth-child(3) .pic-m {
   width:50%;
 }
 
-.pic3 {
+.list-m li:nth-child(3) .pic {
   width:100%;
 }
 
-.inf-m3{
+.list-m li:nth-child(3) .inf-m {
   width:50%;
 }
 
- .counter3 {
+.list-m li:nth-child(3)  .counter {
   display:inline-block;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
@@ -644,13 +644,13 @@ body,html {
   color:#fff;
   background-color: #5e42b0;
   margin-top: -2%;
-  right: 45.6%;
+  right: calc(50% - 84px);
   padding-top: 31px;
   box-sizing: border-box;
   text-align: center;
   }
   
-.counter3:before {
+.list-m li:nth-child(3) .counter:before {
   border: 3px solid #fff;
   position: absolute;
   content: "";
@@ -659,7 +659,7 @@ body,html {
   border-radius: 2px;
   }
 
-.inf-m3-h {
+.list-m li:nth-child(3) .inf-m-h {
   font-family: 'Open Sans', sans-serif;
   color: #e7e7e7;
   font-size: 80px;
@@ -670,7 +670,7 @@ body,html {
   padding-left: 13%;
 }
 
-.inf-m3-p {
+.list-m li:nth-child(3) .inf-m-p {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 24px;
@@ -721,7 +721,7 @@ body,html {
 }
   
 
-.f-title-1 {
+.f-title h2:first-child {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 80px;
@@ -734,7 +734,7 @@ body,html {
   width:100%;
 }
 
-.f-title-2 {
+.f-title h2:nth-child(2) {
   font-family: 'Open Sans', sans-serif;
   color:#9b8ec1;
   font-size: 30px;
